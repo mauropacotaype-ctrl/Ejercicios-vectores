@@ -1,18 +1,11 @@
-﻿ 
-            Console.Write( "introduce un numero entero positivo para calcular su factorial: " );
-            int numero = int.Parse( Console.ReadLine() );
-
-            if ( numero < 0)
-            { 
-                Console.WriteLine( " valor no calido ( debe ser positivo y entero )" );
-                return;
-            }
-
-            else{
-            int factorial = 1;
-            for ( int i = 1 ; i <= numero ; i++ )
-                        {
-                            factorial = factorial *i;
-                        }
-            Console.WriteLine( "el factorial de " + numero + " es: " + factorial );         
-                    }
+﻿class Program
+{
+    static void Main()
+    {   
+        Console.WriteLine("La suma de los cuadrados de los primeros 100 números enteros naturales es:\n ");
+        Console.WriteLine("La formula empleada es: n(n+1)(2n+1)/6 "  );
+        int a = 100;
+        int resultado = (a*(a+1)*(2*a+1))/6;
+        Console.WriteLine("El resultado es: " + resultado);   
+    }
+}
