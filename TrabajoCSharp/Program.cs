@@ -1,8 +1,4 @@
-﻿using System;   
-class Program 
-{
-    static void Main()
-    {   
+﻿  
             Console.Write( "introduce un numero entero positivo para calcular su factorial: " );
             int numero = int.Parse( Console.ReadLine()! );
             int i =1;
@@ -27,5 +23,4 @@ class Program
                     }
                 }
                 Console.ReadKey();
-    }
-}
+ 
