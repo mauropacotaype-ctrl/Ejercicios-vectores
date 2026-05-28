@@ -26,5 +26,6 @@ class Program
                             Console.WriteLine( "el factorial de " + i +" es: " + factorial );
                     }
                 }
+                Console.ReadKey();
     }
 }
