@@ -1,0 +1,15 @@
+C:\Users\Mauro\Documents\Trabajos remoto\remoto\bin\Debug\net10.0\remoto.exe
+C:\Users\Mauro\Documents\Trabajos remoto\remoto\bin\Debug\net10.0\remoto.deps.json
+C:\Users\Mauro\Documents\Trabajos remoto\remoto\bin\Debug\net10.0\remoto.runtimeconfig.json
+C:\Users\Mauro\Documents\Trabajos remoto\remoto\bin\Debug\net10.0\remoto.dll
+C:\Users\Mauro\Documents\Trabajos remoto\remoto\bin\Debug\net10.0\remoto.pdb
+C:\Users\Mauro\Documents\Trabajos remoto\remoto\obj\Debug\net10.0\remoto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mauro\Documents\Trabajos remoto\remoto\obj\Debug\net10.0\remoto.AssemblyInfoInputs.cache
+C:\Users\Mauro\Documents\Trabajos remoto\remoto\obj\Debug\net10.0\remoto.AssemblyInfo.cs
+C:\Users\Mauro\Documents\Trabajos remoto\remoto\obj\Debug\net10.0\remoto.csproj.CoreCompileInputs.cache
+C:\Users\Mauro\Documents\Trabajos remoto\remoto\obj\Debug\net10.0\remoto.sourcelink.json
+C:\Users\Mauro\Documents\Trabajos remoto\remoto\obj\Debug\net10.0\remoto.dll
+C:\Users\Mauro\Documents\Trabajos remoto\remoto\obj\Debug\net10.0\refint\remoto.dll
+C:\Users\Mauro\Documents\Trabajos remoto\remoto\obj\Debug\net10.0\remoto.pdb
+C:\Users\Mauro\Documents\Trabajos remoto\remoto\obj\Debug\net10.0\remoto.genruntimeconfig.cache
+C:\Users\Mauro\Documents\Trabajos remoto\remoto\obj\Debug\net10.0\ref\remoto.dll
