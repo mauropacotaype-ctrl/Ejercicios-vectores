@@ -1,0 +1,15 @@
+C:\Users\Mauro\Documents\Trabajos remoto\TrabajoCSharp\obj\Debug\net10.0\TrabajoCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mauro\Documents\Trabajos remoto\TrabajoCSharp\obj\Debug\net10.0\TrabajoCSharp.AssemblyInfoInputs.cache
+C:\Users\Mauro\Documents\Trabajos remoto\TrabajoCSharp\obj\Debug\net10.0\TrabajoCSharp.AssemblyInfo.cs
+C:\Users\Mauro\Documents\Trabajos remoto\TrabajoCSharp\obj\Debug\net10.0\TrabajoCSharp.csproj.CoreCompileInputs.cache
+C:\Users\Mauro\Documents\Trabajos remoto\TrabajoCSharp\obj\Debug\net10.0\TrabajoCSharp.sourcelink.json
+C:\Users\Mauro\Documents\Trabajos remoto\TrabajoCSharp\bin\Debug\net10.0\TrabajoCSharp.exe
+C:\Users\Mauro\Documents\Trabajos remoto\TrabajoCSharp\bin\Debug\net10.0\TrabajoCSharp.deps.json
+C:\Users\Mauro\Documents\Trabajos remoto\TrabajoCSharp\bin\Debug\net10.0\TrabajoCSharp.runtimeconfig.json
+C:\Users\Mauro\Documents\Trabajos remoto\TrabajoCSharp\bin\Debug\net10.0\TrabajoCSharp.dll
+C:\Users\Mauro\Documents\Trabajos remoto\TrabajoCSharp\bin\Debug\net10.0\TrabajoCSharp.pdb
+C:\Users\Mauro\Documents\Trabajos remoto\TrabajoCSharp\obj\Debug\net10.0\TrabajoCSharp.dll
+C:\Users\Mauro\Documents\Trabajos remoto\TrabajoCSharp\obj\Debug\net10.0\refint\TrabajoCSharp.dll
+C:\Users\Mauro\Documents\Trabajos remoto\TrabajoCSharp\obj\Debug\net10.0\TrabajoCSharp.pdb
+C:\Users\Mauro\Documents\Trabajos remoto\TrabajoCSharp\obj\Debug\net10.0\TrabajoCSharp.genruntimeconfig.cache
+C:\Users\Mauro\Documents\Trabajos remoto\TrabajoCSharp\obj\Debug\net10.0\ref\TrabajoCSharp.dll
