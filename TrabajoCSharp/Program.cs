@@ -79,7 +79,7 @@ class Ejercicio1
 
         Console.WriteLine("La media es: " + media); 
     }
-}
+    }
 class Ejercicio2
 {
     public void Ejecutar()
@@ -98,7 +98,7 @@ class Ejercicio2
 
         Console.WriteLine($"\nLa suma de los cuadrados de las componentes es: {sumaCuadrados}");
     }
-}
+    }
 class Ejercicio3
 {
     public void Ejecutar()
@@ -264,7 +264,7 @@ class Ejercicio7
 
         Console.WriteLine($"\nEl elemento máximo es: {maximo}");
     }
-}
+    }
 class Ejercicio8
 {
     public void Ejecutar()
@@ -512,7 +512,7 @@ class Ejercicio13
 
         Console.WriteLine();
     }
-}
+    }
 class Ejercicio14
 {
     public void Ejecutar()
