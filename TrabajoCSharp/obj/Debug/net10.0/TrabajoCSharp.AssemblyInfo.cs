@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TrabajoCSharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+76935b6b9974d3cb57f1e5f33fb0c310707d8a2a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e96731adffe89e04917f57ad3220869c5c9315f")]
 [assembly: System.Reflection.AssemblyProductAttribute("TrabajoCSharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TrabajoCSharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

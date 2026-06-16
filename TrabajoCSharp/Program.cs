@@ -62,7 +62,7 @@ class Ejercicio1
 {
     public void Ejecutar()
     {
-                Console.Write("Ingrese la cantidad de elementos del vector: ");
+        Console.Write("Ingrese la cantidad de elementos del vector: ");
         int n = int.Parse(Console.ReadLine()!);
 
         int[] vector = new int[n];
@@ -77,36 +77,132 @@ class Ejercicio1
 
         double media = suma / n;
 
-        Console.WriteLine("La media es: " + media);
+        Console.WriteLine("La media es: " + media); 
     }
 }
-
 class Ejercicio2
 {
     public void Ejecutar()
     {
-        Console.WriteLine("Ejecutando Ejercicio 2");
+        int n = 5;
+        int[] vector = new int[n];
+        int sumaCuadrados = 0;
+
+        for (int i = 0; i < n ; i++)
+        {
+            Console.Write($"Ingrese el elemento {i + 1}: ");
+            vector[i] = int.Parse(Console.ReadLine()!);
+
+            sumaCuadrados += vector[i] * vector[i];
+        }
+
+        Console.WriteLine($"\nLa suma de los cuadrados de las componentes es: {sumaCuadrados}");
     }
 }
 class Ejercicio3
 {
     public void Ejecutar()
     {
-        Console.WriteLine("Ejecutando Ejercicio 2");
+        Console.Write("Ingrese el tamaño de los vectores: ");
+        int n = int.Parse(Console.ReadLine()!);
+
+        int[] v = new int[n];
+        int[] w = new int[n];
+
+        Console.WriteLine("\nIngrese los elementos del vector V:");
+        for (int i = 0; i < n; i++)
+        {
+            Console.Write($"V[{i}] = ");
+            v[i] = int.Parse(Console.ReadLine()!);
+        }
+
+        Console.WriteLine("\nIngrese los elementos del vector W:");
+        for (int i = 0; i < n; i++)
+        {
+            Console.Write($"W[{i}] = ");
+            w[i] = int.Parse(Console.ReadLine()!);
+        }
+
+        int productoEscalar = 0;
+
+        for (int i = 0; i < n; i++)
+        {
+            productoEscalar += v[i] * w[i];
+        }
+
+        Console.WriteLine($"\nEl producto escalar es: {productoEscalar}");
     }
 }
 class Ejercicio4
 {
     public void Ejecutar()
     {
-        Console.WriteLine("Ejecutando Ejercicio 2");
+        Console.Write("Ingrese el tamaño del vector: ");
+        int n = int.Parse(Console.ReadLine()!);
+
+        int[] vector = new int[n];
+        int[] resultado = new int[n];
+
+        Console.WriteLine("\nIngrese los elementos del vector:");
+
+        for (int i = 0; i < n; i++)
+        {
+            Console.Write($"Vector[{i}] = ");
+            vector[i] = int.Parse(Console.ReadLine()!);
+        }
+
+        Console.Write("\nIngrese el número por el que desea multiplicar el vector: ");
+        int numero = int.Parse(Console.ReadLine()!);
+
+        for (int i = 0; i < n; i++)
+        {
+            resultado[i] = vector[i] * numero;
+        }
+
+        Console.WriteLine("\nVector resultante:");
+
+        for (int i = 0; i < n; i++)
+        {
+            Console.Write(resultado[i] + " ");
+        }
+
+        Console.WriteLine();
     }
 }
 class Ejercicio5
 {
     public void Ejecutar()
     {
-        Console.WriteLine("Ejecutando Ejercicio 2");
+        Console.Write("Ingrese el tamaño del vector: ");
+        int n = int.Parse(Console.ReadLine()!);
+
+        double[] vector = new double[n];
+        double[] resultado = new double[n];
+
+        Console.WriteLine("\nIngrese los elementos del vector:");
+
+        for (int i = 0; i < n; i++)
+        {
+            Console.Write($"Vector[{i}] = ");
+            vector[i] = double.Parse(Console.ReadLine()!);
+        }
+
+        Console.Write("\nIngrese el número real a sumar: ");
+        double numero = double.Parse(Console.ReadLine()!);
+
+        for (int i = 0; i < n; i++)
+        {
+            resultado[i] = vector[i] + numero;
+        }
+
+        Console.WriteLine("\nVector resultante:");
+
+        for (int i = 0; i < n; i++)
+        {
+            Console.Write(resultado[i] + " ");
+        }
+
+        Console.WriteLine();
     }
 }
 class Ejercicio6
