@@ -512,7 +512,7 @@ class Ejercicio13
 
         Console.WriteLine();
     }
-    }
+}
 class Ejercicio14
 {
     public void Ejecutar()
