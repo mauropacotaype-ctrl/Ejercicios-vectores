@@ -209,62 +209,360 @@ class Ejercicio6
 {
     public void Ejecutar()
     {
-        Console.WriteLine("Ejecutando Ejercicio 2");
+        Console.Write("Ingrese el tamaño del vector: ");
+        int n = int.Parse(Console.ReadLine()!);
+
+        int[] vector = new int[n];
+
+        Console.WriteLine("\nIngrese los elementos del vector:");
+
+        for (int i = 0; i < n; i++)
+        {
+            Console.Write($"Vector[{i}] = ");
+            vector[i] = int.Parse(Console.ReadLine()!);
+        }
+
+        int minimo = vector[0];
+
+        for (int i = 1; i < n; i++)
+        {
+            if (vector[i] < minimo)
+            {
+                minimo = vector[i];
+            }
+        }
+
+        Console.WriteLine($"\nEl elemento mínimo es: {minimo}");
     }
 }
 class Ejercicio7
 {
     public void Ejecutar()
     {
-        Console.WriteLine("Ejecutando Ejercicio 2");
+    Console.Write("Ingrese el tamaño del vector: ");
+        int n = int.Parse(Console.ReadLine()!);
+
+        int[] vector = new int[n];
+
+        Console.WriteLine("\nIngrese los elementos del vector:");
+
+        for (int i = 0; i < n; i++)
+        {
+            Console.Write($"Vector[{i}] = ");
+            vector[i] = int.Parse(Console.ReadLine()!);
+        }
+
+        int maximo = vector[0];
+
+        for (int i = 1; i < n; i++)
+        {
+            if (vector[i] > maximo)
+            {
+                maximo = vector[i];
+            }
+        }
+
+        Console.WriteLine($"\nEl elemento máximo es: {maximo}");
     }
 }
 class Ejercicio8
 {
     public void Ejecutar()
     {
-        Console.WriteLine("Ejecutando Ejercicio 2");
+        Console.Write("Ingrese el número de filas: ");
+        int m = int.Parse(Console.ReadLine()!);
+
+        Console.Write("Ingrese el número de columnas: ");
+        int n = int.Parse(Console.ReadLine()!);
+
+        int[,] matriz = new int[m, n];
+
+        for (int i = 0; i < m; i++)
+        {
+            for (int j = 0; j < n; j++)
+            {
+                Console.Write($"Matriz[{i},{j}] = ");
+                matriz[i, j] = int.Parse(Console.ReadLine()!);
+            }
+        }
+
+        int minimo = matriz[0, 0];
+        int maximo = matriz[0, 0];
+
+        for (int i = 0; i < m; i++)
+        {
+            for (int j = 0; j < n; j++)
+            {
+                if (matriz[i, j] < minimo)
+                {
+                    minimo = matriz[i, j];
+                }
+
+                if (matriz[i, j] > maximo)
+                {
+                    maximo = matriz[i, j];
+                }
+            }
+        }
+
+        Console.WriteLine($"\nMenor elemento: {minimo}");
+        Console.WriteLine($"Mayor elemento: {maximo}");
     }
 }
 class Ejercicio9
 {
     public void Ejecutar()
     {
-        Console.WriteLine("Ejecutando Ejercicio 2");
+        Console.Write("Ingrese el número de filas (m): ");
+        int m = int.Parse(Console.ReadLine()!);
+
+        Console.Write("Ingrese el número de columnas (n): ");
+        int n = int.Parse(Console.ReadLine()!);
+
+        int[,] matriz = new int[m, n];
+
+        Console.WriteLine("\nIngrese los elementos de la matriz:");
+
+        for (int i = 0; i < m; i++)
+        {
+            for (int j = 0; j < n; j++)
+            {
+                Console.Write($"Matriz[{i},{j}] = ");
+                matriz[i, j] = int.Parse(Console.ReadLine()!);
+            }
+        }
+
+        Console.WriteLine("\nSuma de cada fila:");
+
+        for (int i = 0; i < m; i++)
+        {
+            int suma = 0;
+
+            for (int j = 0; j < n; j++)
+            {
+                suma += matriz[i, j];
+            }
+
+            Console.WriteLine($"Fila {i}: {suma}");
+        }
     }
 }
 class Ejercicio10
 {
     public void Ejecutar()
     {
-        Console.WriteLine("Ejecutando Ejercicio 2");
+           Console.Write("Ingrese el número de filas (m): ");
+        int m = int.Parse(Console.ReadLine()!);
+
+        Console.Write("Ingrese el número de columnas (n): ");
+        int n = int.Parse(Console.ReadLine()!);
+
+        int[,] matriz = new int[m, n];
+
+        Console.WriteLine("\nIngrese los elementos de la matriz:");
+
+        for (int i = 0; i < m; i++)
+        {
+            for (int j = 0; j < n; j++)
+            {
+                Console.Write($"Matriz[{i},{j}] = ");
+                matriz[i, j] = int.Parse(Console.ReadLine()!);
+            }
+        }
+
+        Console.WriteLine("\nSuma de cada columna:");
+
+        for (int j = 0; j < n; j++)
+        {
+            int suma = 0;
+
+            for (int i = 0; i < m; i++)
+            {
+                suma += matriz[i, j];
+            }
+
+            Console.WriteLine($"Columna {j}: {suma}");
+        }
     }
 }
 class Ejercicio11
 {
     public void Ejecutar()
     {
-        Console.WriteLine("Ejecutando Ejercicio 2");
+        Console.Write("Ingrese el número de filas y columnas (m): ");
+        int m = int.Parse(Console.ReadLine()!);
+        int n = m;
+
+        int[,] matriz = new int[m, n];
+
+        Console.WriteLine("\nIngrese los elementos de la matriz:");
+
+        for (int i = 0; i < m; i++)
+        {
+            for (int j = 0; j < n; j++)
+            {
+                Console.Write($"Matriz[{i},{j}] = ");
+                matriz[i, j] = int.Parse(Console.ReadLine()!);
+            }
+        }
+
+        int suma = 0;
+
+        for (int i = 0; i < m; i++)
+        {
+            suma += matriz[i, i];
+        }
+
+        Console.WriteLine($"\nSuma de la diagonal principal: {suma}");
     }
 }
 class Ejercicio12
 {
     public void Ejecutar()
     {
-        Console.WriteLine("Ejecutando Ejercicio 2");
+        Console.Write("Ingrese el número de filas y columnas (m): ");
+        int m = int.Parse(Console.ReadLine()!);
+        int n = m; 
+
+        int[,] matriz = new int[m, n];
+
+        Console.WriteLine("\nIngrese los elementos de la matriz:");
+
+        for (int i = 0; i < m; i++)
+        {
+            for (int j = 0; j < n; j++)
+            {
+                Console.Write($"Matriz[{i},{j}] = ");
+                matriz[i, j] = int.Parse(Console.ReadLine()!);
+            }
+        }
+
+        int suma = 0;
+
+        for (int i = 0; i < m; i++)
+        {
+            suma += matriz[i, n - 1 - i];
+        }
+
+        Console.WriteLine("\nMatriz ingresada:");
+
+        for (int i = 0; i < m; i++)
+        {
+            for (int j = 0; j < n; j++)
+            {
+                Console.Write(matriz[i, j] + "\t");
+            }
+            Console.WriteLine();
+        }
+
+        Console.WriteLine($"\nSuma de la diagonal secundaria: {suma}");
     }
 }
 class Ejercicio13
 {
     public void Ejecutar()
     {
-        Console.WriteLine("Ejecutando Ejercicio 2");
+        Console.Write("Ingrese el número de filas (m): ");
+        int m = int.Parse(Console.ReadLine()!);
+
+        Console.Write("Ingrese el número de columnas (n): ");
+        int n = int.Parse(Console.ReadLine()!);
+
+        int[,] matriz = new int[m, n];
+
+        Console.WriteLine("\nIngrese los elementos de la matriz:");
+
+        for (int i = 0; i < m; i++)
+        {
+            for (int j = 0; j < n; j++)
+            {
+                Console.Write($"Elemento [{i},{j}]: ");
+                matriz[i, j] = int.Parse(Console.ReadLine()!);
+            }
+        }
+
+        // Cantidad de elementos del borde
+        int tam = 2 * m + 2 * n - 4;
+        int[] v = new int[tam];
+
+        int k = 0;
+
+        // Fila superior (izq -> der)
+        for (int j = 0; j < n; j++)
+            v[k++] = matriz[0, j];
+
+        // Columna derecha (arriba -> abajo)
+        for (int i = 1; i < m; i++)
+            v[k++] = matriz[i, n - 1];
+
+        // Fila inferior (der -> izq)
+        for (int j = n - 2; j >= 0; j--)
+            v[k++] = matriz[m - 1, j];
+
+        // Columna izquierda (abajo -> arriba)
+        for (int i = m - 2; i > 0; i--)
+            v[k++] = matriz[i, 0];
+
+        Console.WriteLine("\nVector de bordes en sentido horario:");
+
+        for (int i = 0; i < v.Length; i++)
+        {
+            Console.Write(v[i] + " ");
+        }
+
+        Console.WriteLine();
     }
 }
 class Ejercicio14
 {
     public void Ejecutar()
     {
-        Console.WriteLine("Ejecutando Ejercicio 2");
+        Console.Write("Ingrese el tamaño de la matriz (m x n): ");
+        int n = int.Parse(Console.ReadLine()!);
+
+        int[,] matriz = new int[n, n];
+
+        Console.WriteLine("\nIngrese los elementos de la matriz:");
+
+        for (int i = 0; i < n; i++)
+        {
+            for (int j = 0; j < n; j++)
+            {
+                Console.Write($"Elemento [{i},{j}]: ");
+                matriz[i, j] = int.Parse(Console.ReadLine()!);
+            }
+        }
+
+        int suma = 0;
+
+        Console.WriteLine("\nElementos que forman la letra N:\n");
+
+          
+        for (int i = 0; i < n; i++)
+        {
+            for (int j = 0; j < n; j++)
+            {
+                if (j == 0 || j == n - 1 || i == j)
+                {
+                    Console.Write(matriz[i, j] + " ");
+                    suma += matriz[i, j];
+                }
+            }
+        }
+
+        Console.WriteLine($"Suma = {suma}\n\n");
+
+         Console.WriteLine("Su forma en N es:\n"); 
+        for (int i = 0; i < n; i++)
+                {
+                    for (int j = 0; j < n; j++)
+                    {
+                        if (j == 0 || j == n - 1 || i == j)
+                            Console.Write($"{matriz[i, j],4}");
+                        else
+                            Console.Write("    ");
+                    }
+                    Console.WriteLine();
+                }
     }
 }
