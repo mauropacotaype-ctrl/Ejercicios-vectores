@@ -1,19 +1,20 @@
 ﻿using System;
 
 
+
 class Program
 {
     static void Main()
-    {
+    {   Console.WriteLine("Ejercicios del grupo 2 y de vectores y matrices");
         Console.Write("Número de ejercicio: ");
         int n = int.Parse(Console.ReadLine()!);
 
         switch (n)
         {
-            case 1:
+                case 1:
                 new Ejercicio1().Ejecutar();
                 break;
-            case 2:
+                case 2:
                 new Ejercicio2().Ejecutar();
                 break;
                  case 3:
@@ -51,6 +52,9 @@ class Program
                 break;
                 case 14:
                 new Ejercicio14().Ejecutar();
+                break;
+                case 15:
+                new Ejercicio15().Ejecutar();
                 break;
             default:
                 Console.WriteLine("Ejercicio no encontrado");
@@ -514,6 +518,7 @@ class Ejercicio13
     }
 }
 class Ejercicio14
+
 {
     public void Ejecutar()
     {
@@ -564,5 +569,43 @@ class Ejercicio14
                     }
                     Console.WriteLine();
                 }
+    }
+}
+class Ejercicio15
+{
+    public void Ejecutar()
+    {
+               
+Console.Write("Ingrese la cantidad de puntos: ");
+        int n = int.Parse(Console.ReadLine()!);
+
+        int contador = 0;
+
+        // Datos de las circunferencias
+        double x1 = 5, y1 = 4, r1 = 2;
+        double x2 = -5, y2 = -4, r2 = 3;
+
+        for (int i = 1; i <= n; i++)
+        {
+            Console.WriteLine($"\nPunto {i}:");
+
+            Console.Write("x = ");
+            double x = double.Parse(Console.ReadLine()!);
+
+            Console.Write("y = ");
+            double y = double.Parse(Console.ReadLine()!);
+
+            // Distancia al cuadrado respecto a cada centro
+            double d1 = Math.Pow(x - x1, 2) + Math.Pow(y - y1, 2);
+            double d2 = Math.Pow(x - x2, 2) + Math.Pow(y - y2, 2);
+
+            // Dentro o sobre la frontera de alguna circunferencia
+            if (d1 <= r1 * r1 || d2 <= r2 * r2)
+            {
+                contador++;
+            }
+        }
+
+        Console.WriteLine($"\nCantidad de puntos dentro de las circunferencias: {contador}");
     }
 }
