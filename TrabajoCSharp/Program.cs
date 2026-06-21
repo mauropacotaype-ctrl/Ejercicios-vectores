@@ -575,37 +575,27 @@ class Ejercicio15
 {
     public void Ejecutar()
     {
-               
-Console.Write("Ingrese la cantidad de puntos: ");
-        int n = int.Parse(Console.ReadLine()!);
+    
+Console.Write("Ingrese una frase: ");
+
+        string palabra = Console.ReadLine()!;
 
         int contador = 0;
 
-        // Datos de las circunferencias
-        double x1 = 5, y1 = 4, r1 = 2;
-        double x2 = -5, y2 = -4, r2 = 3;
-
-        for (int i = 1; i <= n; i++)
+        while (contador < palabra.Length)
         {
-            Console.WriteLine($"\nPunto {i}:");
-
-            Console.Write("x = ");
-            double x = double.Parse(Console.ReadLine()!);
-
-            Console.Write("y = ");
-            double y = double.Parse(Console.ReadLine()!);
-
-            // Distancia al cuadrado respecto a cada centro
-            double d1 = Math.Pow(x - x1, 2) + Math.Pow(y - y1, 2);
-            double d2 = Math.Pow(x - x2, 2) + Math.Pow(y - y2, 2);
-
-            // Dentro o sobre la frontera de alguna circunferencia
-            if (d1 <= r1 * r1 || d2 <= r2 * r2)
-            {
-                contador++;
-            }
+            contador++;
         }
 
-        Console.WriteLine($"\nCantidad de puntos dentro de las circunferencias: {contador}");
+        Console.WriteLine("La frase tiene " + contador + " caracteres.");
+
+
+
+
+
+
+
+
+
     }
 }
