@@ -56,6 +56,9 @@ class Program
                 case 15:
                 new Ejercicio15().Ejecutar();
                 break;
+                case 16:
+                new Ejercicio16().Ejecutar();
+                break;
             default:
                 Console.WriteLine("Ejercicio no encontrado");
                 break;
@@ -596,6 +599,26 @@ Console.Write("Ingrese una frase: ");
 
 
 
+
+    }
+}
+class Ejercicio16
+{
+    public void Ejecutar()
+    {
+    
+        Console.Write("Ingrese una frase: ");
+
+        string palabra = Console.ReadLine()!;
+
+        int contador = 0;
+
+        while (contador < palabra.Length)
+        {
+            contador++;
+        }
+
+        Console.WriteLine("La frase tiene " + contador + " caracteres.");
 
     }
 }
