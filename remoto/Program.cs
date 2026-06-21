@@ -7,7 +7,6 @@ class Program
         // Días de cada mes (año no bisiesto)
         int[] diasMes =
         {31, 28, 31, 30,  31, 30, 31, 31, 30, 31, 30, 31  };
-
         Console.Write("Ingrese el mes (1-12): ");
         int mes = int.Parse(Console.ReadLine()!);
 
@@ -21,10 +20,8 @@ class Program
         {
             numeroDia += diasMes[i];
         }
-
         // Agregar el día ingresado
         numeroDia += dia;
-
         Console.WriteLine("El día corresponde al número: " + numeroDia);
     }
 }
